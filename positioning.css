@@ -26,7 +26,12 @@ body{
 }
 .paragraphs{
     clear: both;
-    text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 600px;
+    align-items: center;
+
 }
 .paragraphs p{
     clear: both;
@@ -34,6 +39,7 @@ body{
     text-align: left;
     line-height: 20px;
     font-family: Arial, Helvetica, sans-serif;
+   
 }
 .paragraphs h3{
 color: lightgoldenrodyellow;
@@ -45,36 +51,32 @@ font-family: Arial, Helvetica, sans-serif;
 #first{
   border: 2px solid black;
   width: 200px;
-  float: left;
-  margin: 50px;
   background-color: darksalmon;
   height: 450px;
+  margin-top: 40px;
 }
 #second{
     border: 2px solid black;
     width: 200px;
-    float: left;
-    margin: 50px;
     background-color: darksalmon;
     height: 450px;
+    margin-top: 40px;
 
 }
 #third{
     border: 2px solid black;
     width: 200px;
-    float: left;
-    margin: 50px;
     background-color: darksalmon;
     height: 450px;
+    margin-top: 40px;
    
 }
 #fourth{
     border: 2px solid black;
     width: 200px;
-    float: left;
-    margin: 50px;
     background-color: darksalmon;
     height: 450px;
+    margin-top: 40px;
 }
 input[type=submit]{
     width: 150px ;
